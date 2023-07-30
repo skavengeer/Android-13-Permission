@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if (!post){
                     requestPermissionsNotification();
                 } else {
-                    Toast.makeText(MainActivity.this, "OK", Toast.LENGTH_SHORT );
+                    Toast.makeText(MainActivity.this, "OK", Toast.LENGTH_SHORT ).show();
                 }
             }
         });
